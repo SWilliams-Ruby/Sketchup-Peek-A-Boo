@@ -1,0 +1,20 @@
+
+https://stackoverflow.com/questions/27219146/osx-read-raw-keyboard-input-in-c/274525461. access keyboard with hidapi
+read directly from keyboard
+check for the hex value
+do some c-code
+problem here: hot-keys are not present in raw hid-output
+2. access global user inputs
+read any input on user-level
+check the source of the input (i.e: mac-keyboard, cheap-keyboard)
+do some c-code
+
+
+https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/EventOverview/HandlingKeyEvents/HandlingKeyEvents.html
+
+https://developer.apple.com/documentation/appkit/nsevent/1534971-addlocalmonitorforeventsmatching
+addLocalMonitorForEventsMatchingMask:handler:
+Installs an event monitor that receives copies of events posted to this application before they are dispatched.
+
+
+
