@@ -246,7 +246,7 @@ module SW
         # WM_SYSCOMMAND = 0x0112        
         
         WM_KEYFIRST = 0x0100
-        # WM_KEYDOWN	= 0x0100	
+        WM_KEYDOWN	= 0x0100	
         # WM_KEYUP	= 0x0101	
         # WM_CHAR	= 0x0102	    # https://docs.microsoft.com/en-us/windows/win32/inputdev/wm-char
         # WM_DEADCHAR	= 0x0103	# https://docs.microsoft.com/en-us/windows/win32/inputdev/wm-deadchar
